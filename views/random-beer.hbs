@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Beer</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
+  </head>
+  <body>
+    {{#each beer}}
+      <div class="container">
+        <img src="{{this.image_url}}" alt="{{this.name}}" />
+      </div>
+      <div>
+        <h1>{{this.name}}</h1>
+        <p>{{this.description}}</p>
+        <p>{{this.tagline}}</p>
+        <p>{{this.food-pairing}}</p>
+        <p>{{this.brewer-tips}}</p>
+      </div>
+
+    {{/each}}
+  </body>
+</html>
