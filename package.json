@@ -2,6 +2,10 @@
   "name": "lab-ironbeers",
   "version": "2.0.0",
   "main": "app.js",
+  "prettier":{
+    "semi": true,
+    "singleQuote": false
+  },
   "scripts": {
     "start": "node app.js"
   },

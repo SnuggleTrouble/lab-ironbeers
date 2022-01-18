@@ -5,3 +5,70 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: #2081c3;
+  padding: 14px 0;
+}
+
+.nav-bar-container {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.nav-bar-ul {
+  list-style: none;
+}
+
+.nav-bar-ul li {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar a {
+  color: #f7f9f9;
+  text-decoration: none;
+}
+
+.image-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+button {
+  background-color: #2081c3;
+  margin: 20px;
+  padding: 15px;
+}
+
+button:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+button a {
+  color: #f7f9f9;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #0a2c42;
+  color: #f7f9f9;
+  padding: 20px;
+}
